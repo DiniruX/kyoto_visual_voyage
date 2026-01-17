@@ -1,22 +1,12 @@
+// Balage Diniru Sandipa
+// M25W0576
+
 import { useState } from "react";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-  DialogFooter,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogFooter } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Plus } from "lucide-react";
 const BASE_URL_AUTH = import.meta.env.VITE_BASE_URL_AUTH;
 import { toast } from "sonner";
@@ -36,7 +26,7 @@ const CreateUserModal = ({ onUserCreated }: CreateUserModalProps) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    
+
     fetch(`${BASE_URL_AUTH}/register`, {
       method: "POST",
       headers: {
@@ -77,23 +67,11 @@ const CreateUserModal = ({ onUserCreated }: CreateUserModalProps) => {
           <div className="grid gap-4 py-4">
             <div className="grid gap-2">
               <Label htmlFor="name">Username</Label>
-              <Input
-                id="username"
-                value={formData.username}
-                onChange={(e) => setFormData({ ...formData, username: e.target.value })}
-                placeholder="John Doe"
-                required
-              />
+              <Input id="username" value={formData.username} onChange={(e) => setFormData({ ...formData, username: e.target.value })} placeholder="John Doe" required />
             </div>
             <div className="grid gap-2">
               <Label htmlFor="password">Initial Password</Label>
-              <Input
-                id="password"
-                type="password"
-                value={formData.password}
-                onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                required
-              />
+              <Input id="password" type="password" value={formData.password} onChange={(e) => setFormData({ ...formData, password: e.target.value })} required />
             </div>
           </div>
           <DialogFooter>

@@ -1,3 +1,6 @@
+// Balage Diniru Sandipa
+// M25W0576
+
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogFooter } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -8,7 +11,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Plus } from "lucide-react";
 import { toast } from "sonner";
 
-const AddEventModal = ({ months, onCreated }: { months, onCreated: () => void }) => {
+const AddEventModal = ({ months, onCreated }: { months; onCreated: () => void }) => {
   const [open, setOpen] = useState(false);
   const [formData, setFormData] = useState({
     monthId: "",
@@ -16,7 +19,7 @@ const AddEventModal = ({ months, onCreated }: { months, onCreated: () => void })
     date: "",
     description: "",
     image: "",
-    location: ""
+    location: "",
   });
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -42,18 +45,28 @@ const AddEventModal = ({ months, onCreated }: { months, onCreated: () => void })
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button size="sm"><Plus className="mr-2 h-4 w-4" /> Add Special Event</Button>
+        <Button size="sm">
+          <Plus className="mr-2 h-4 w-4" /> Add Special Event
+        </Button>
       </DialogTrigger>
       <DialogContent>
         <form onSubmit={handleSubmit} className="space-y-4">
-          <DialogHeader><DialogTitle>New Special Event</DialogTitle></DialogHeader>
-          
+          <DialogHeader>
+            <DialogTitle>New Special Event</DialogTitle>
+          </DialogHeader>
+
           <div className="space-y-2">
             <Label>Select Month</Label>
-            <Select onValueChange={(val) => setFormData({...formData, monthId: val})}>
-              <SelectTrigger><SelectValue placeholder="Which month?" /></SelectTrigger>
+            <Select onValueChange={(val) => setFormData({ ...formData, monthId: val })}>
+              <SelectTrigger>
+                <SelectValue placeholder="Which month?" />
+              </SelectTrigger>
               <SelectContent>
-                {months.map(m => <SelectItem key={m.monthId} value={m.monthId}>{m.month}</SelectItem>)}
+                {months.map((m) => (
+                  <SelectItem key={m.monthId} value={m.monthId}>
+                    {m.month}
+                  </SelectItem>
+                ))}
               </SelectContent>
             </Select>
           </div>
@@ -61,30 +74,34 @@ const AddEventModal = ({ months, onCreated }: { months, onCreated: () => void })
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-2">
               <Label>Event Name</Label>
-              <Input value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} placeholder="e.g. Kite Festival" required />
+              <Input value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} placeholder="e.g. Kite Festival" required />
             </div>
             <div className="space-y-2">
               <Label>Date/Duration</Label>
-              <Input value={formData.date} onChange={(e) => setFormData({...formData, date: e.target.value})} placeholder="e.g. Jan 14-16" required />
+              <Input value={formData.date} onChange={(e) => setFormData({ ...formData, date: e.target.value })} placeholder="e.g. Jan 14-16" required />
             </div>
           </div>
 
           <div className="space-y-2">
             <Label>Location</Label>
-            <Input value={formData.location} onChange={(e) => setFormData({...formData, location: e.target.value})} placeholder="City Center" />
+            <Input value={formData.location} onChange={(e) => setFormData({ ...formData, location: e.target.value })} placeholder="City Center" />
           </div>
 
           <div className="space-y-2">
             <Label>Description</Label>
-            <Textarea value={formData.description} onChange={(e) => setFormData({...formData, description: e.target.value})} required />
+            <Textarea value={formData.description} onChange={(e) => setFormData({ ...formData, description: e.target.value })} required />
           </div>
 
           <div className="space-y-2">
             <Label>Event Image URL</Label>
-            <Input value={formData.image} onChange={(e) => setFormData({...formData, image: e.target.value})} placeholder="https://..." />
+            <Input value={formData.image} onChange={(e) => setFormData({ ...formData, image: e.target.value })} placeholder="https://..." />
           </div>
 
-          <DialogFooter><Button type="submit" className="w-full">Post Event</Button></DialogFooter>
+          <DialogFooter>
+            <Button type="submit" className="w-full">
+              Post Event
+            </Button>
+          </DialogFooter>
         </form>
       </DialogContent>
     </Dialog>

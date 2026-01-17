@@ -1,3 +1,5 @@
+// Balage Diniru Sandipa
+// M25W0576
 
 import { useState, useRef, useEffect } from 'react';
 import { Category, Item } from '@/types';
@@ -41,8 +43,8 @@ const InteractiveMap = ({ items, categories, className }: InteractiveMapProps) =
     if (filteredItems.length === 0) return { lat: 35.0116, lng: 135.7681, zoom: 12 }; // Default to Kyoto center
     
     // Calculate center point from all pins
-    const lats = filteredItems.map(item => item.location.coordinates.lat);
-    const lngs = filteredItems.map(item => item.location.coordinates.lng);
+    const lats = filteredItems.map(item => item.lat);
+    const lngs = filteredItems.map(item => item.lng);
     
     const center = {
       lat: lats.reduce((a, b) => a + b, 0) / lats.length,

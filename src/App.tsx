@@ -1,3 +1,5 @@
+// Balage Diniru Sandipa
+// M25W0576
 
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -55,7 +57,6 @@ const App = () => {
                 <Route path="/admin/dashboard" element={<AdminDashboard />} />
                 <Route path="/unauthorized" element={<Unauthorized />} />
                 <Route path="*" element={<NotFound />} />
-
               </Routes>
             </Layout>
           </BrowserRouter>

@@ -1,12 +1,8 @@
+// Balage Diniru Sandipa
+// M25W0576
 
 import { useState } from "react";
-import { 
-  Carousel, 
-  CarouselContent, 
-  CarouselItem, 
-  CarouselNext, 
-  CarouselPrevious 
-} from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { useEffect } from "react";
 import { type CarouselApi } from "@/components/ui/carousel";
 
@@ -21,13 +17,13 @@ const ImageGallery = ({ images, name }: ImageGalleryProps) => {
 
   useEffect(() => {
     if (!api) return;
-    
+
     const handleSelect = () => {
       setCurrentIndex(api.selectedScrollSnap());
     };
 
     api.on("select", handleSelect);
-    
+
     return () => {
       api.off("select", handleSelect);
     };
@@ -35,19 +31,12 @@ const ImageGallery = ({ images, name }: ImageGalleryProps) => {
 
   return (
     <div className="w-full" data-aos="fade-up">
-      <Carousel 
-        className="w-full max-w-4xl mx-auto"
-        setApi={setApi}
-      >
+      <Carousel className="w-full max-w-4xl mx-auto" setApi={setApi}>
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index}>
               <div className="aspect-video relative overflow-hidden rounded-lg">
-                <img
-                  src={image}
-                  alt={`${name} - image ${index + 1}`}
-                  className="w-full h-full object-cover"
-                />
+                <img src={image} alt={`${name} - image ${index + 1}`} className="w-full h-full object-cover" />
               </div>
             </CarouselItem>
           ))}

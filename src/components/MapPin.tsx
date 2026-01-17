@@ -1,3 +1,5 @@
+// Balage Diniru Sandipa
+// M25W0576
 
 import { Item } from '@/types';
 import { MapPin as MapPinIcon } from 'lucide-react';
@@ -19,8 +21,8 @@ const MapPin = ({ item, onClick, isSelected = false }: MapPinProps) => {
     
     // These multipliers would need to be adjusted based on the map bounds
     // Simple linear mapping from lat/lng to percentages
-    const left = ((item.location.coordinates.lng - 135.7) / 0.2) * mapWidth;
-    const top = (1 - (item.location.coordinates.lat - 34.9) / 0.2) * mapHeight;
+    const left = ((item.lng - 135.7) / 0.2) * mapWidth;
+    const top = (1 - (item.lat - 34.9) / 0.2) * mapHeight;
     
     return { left: `${left}%`, top: `${top}%` };
   };

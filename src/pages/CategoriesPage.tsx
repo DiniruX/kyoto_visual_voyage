@@ -1,3 +1,6 @@
+// Balage Diniru Sandipa
+// M25W0576
+
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import CategoryCard from "@/components/CategoryCard";

@@ -1,3 +1,6 @@
+// Balage Diniru Sandipa
+// M25W0576
+
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogFooter } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
@@ -13,7 +16,7 @@ const CreateCategoryModal = ({ onCreated }: { onCreated: () => void }) => {
     name: "",
     description: "",
     image: "",
-    placeId: "" // Unique identifier string
+    placeId: "", // Unique identifier string
   });
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -39,28 +42,34 @@ const CreateCategoryModal = ({ onCreated }: { onCreated: () => void }) => {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline"><Plus className="mr-2 h-4 w-4" /> New Category</Button>
+        <Button variant="outline">
+          <Plus className="mr-2 h-4 w-4" /> New Category
+        </Button>
       </DialogTrigger>
       <DialogContent>
         <form onSubmit={handleSubmit} className="space-y-4">
-          <DialogHeader><DialogTitle>Add New Category</DialogTitle></DialogHeader>
+          <DialogHeader>
+            <DialogTitle>Add New Category</DialogTitle>
+          </DialogHeader>
           <div className="space-y-2">
             <Label>Category ID (Unique Slug)</Label>
-            <Input value={formData.placeId} onChange={(e) => setFormData({...formData, placeId: e.target.value})} placeholder="e.g., nature-parks" required />
+            <Input value={formData.placeId} onChange={(e) => setFormData({ ...formData, placeId: e.target.value })} placeholder="e.g., nature-parks" required />
           </div>
           <div className="space-y-2">
             <Label>Name</Label>
-            <Input value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} placeholder="Nature & Parks" required />
+            <Input value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} placeholder="Nature & Parks" required />
           </div>
           <div className="space-y-2">
             <Label>Description</Label>
-            <Textarea value={formData.description} onChange={(e) => setFormData({...formData, description: e.target.value})} required />
+            <Textarea value={formData.description} onChange={(e) => setFormData({ ...formData, description: e.target.value })} required />
           </div>
           <div className="space-y-2">
             <Label>Image URL</Label>
-            <Input value={formData.image} onChange={(e) => setFormData({...formData, image: e.target.value})} placeholder="https://..." required />
+            <Input value={formData.image} onChange={(e) => setFormData({ ...formData, image: e.target.value })} placeholder="https://..." required />
           </div>
-          <DialogFooter><Button type="submit">Create Category</Button></DialogFooter>
+          <DialogFooter>
+            <Button type="submit">Create Category</Button>
+          </DialogFooter>
         </form>
       </DialogContent>
     </Dialog>

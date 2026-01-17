@@ -1,3 +1,5 @@
+// Balage Diniru Sandipa
+// M25W0576
 
 import { useState } from "react";
 import { Category } from "@/types";
@@ -22,23 +24,17 @@ export function CategoryFilter({ categories, onFilterChange, className }: Catego
     <div className={cn("flex flex-wrap gap-2 justify-center", className)}>
       <Button
         variant="outline"
-        className={cn(
-          "border-kyoto-sakura/30 hover:border-kyoto-sakura",
-          activeCategory === null ? "bg-kyoto-sakura/20 border-kyoto-crimson" : ""
-        )}
+        className={cn("border-kyoto-sakura/30 hover:border-kyoto-sakura", activeCategory === null ? "bg-kyoto-sakura/20 border-kyoto-crimson" : "")}
         onClick={() => handleCategoryClick(null)}
       >
         All
       </Button>
-      
+
       {categories.map((category) => (
         <Button
           key={category.id}
           variant="outline"
-          className={cn(
-            "border-kyoto-sakura/30 hover:border-kyoto-sakura",
-            activeCategory === category.id ? "bg-kyoto-sakura/20 border-kyoto-crimson" : ""
-          )}
+          className={cn("border-kyoto-sakura/30 hover:border-kyoto-sakura", activeCategory === category.id ? "bg-kyoto-sakura/20 border-kyoto-crimson" : "")}
           onClick={() => handleCategoryClick(category.id)}
         >
           {category.name}

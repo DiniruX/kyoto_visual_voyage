@@ -1,3 +1,6 @@
+// Balage Diniru Sandipa
+// M25W0576
+
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogFooter } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
@@ -13,7 +16,7 @@ const CreateMonthModal = ({ onCreated }: { onCreated: () => void }) => {
     monthId: "",
     month: "",
     highlight: "",
-    description: ""
+    description: "",
   });
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -46,28 +49,34 @@ const CreateMonthModal = ({ onCreated }: { onCreated: () => void }) => {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline"><Plus className="mr-2 h-4 w-4" /> Add Month</Button>
+        <Button variant="outline">
+          <Plus className="mr-2 h-4 w-4" /> Add Month
+        </Button>
       </DialogTrigger>
       <DialogContent>
         <form onSubmit={handleSubmit} className="space-y-4">
-          <DialogHeader><DialogTitle>Configure Month Details</DialogTitle></DialogHeader>
+          <DialogHeader>
+            <DialogTitle>Configure Month Details</DialogTitle>
+          </DialogHeader>
           <div className="space-y-2">
             <Label>Month ID (Unique Slug)</Label>
-            <Input value={formData.monthId} onChange={(e) => setFormData({...formData, monthId: e.target.value})} placeholder="january" required />
+            <Input value={formData.monthId} onChange={(e) => setFormData({ ...formData, monthId: e.target.value })} placeholder="january" required />
           </div>
           <div className="space-y-2">
             <Label>Month Name</Label>
-            <Input value={formData.month} onChange={(e) => setFormData({...formData, month: e.target.value})} placeholder="January" required />
+            <Input value={formData.month} onChange={(e) => setFormData({ ...formData, month: e.target.value })} placeholder="January" required />
           </div>
           <div className="space-y-2">
             <Label>Seasonal Description</Label>
-            <Textarea value={formData.description} onChange={(e) => setFormData({...formData, description: e.target.value})} placeholder="Best time for hiking..." required />
+            <Textarea value={formData.description} onChange={(e) => setFormData({ ...formData, description: e.target.value })} placeholder="Best time for hiking..." required />
           </div>
           <div className="space-y-2">
             <Label>Highlight</Label>
-            <Input value={formData.highlight} onChange={(e) => setFormData({...formData, highlight: e.target.value})} placeholder="Gion Matsuri" required />
+            <Input value={formData.highlight} onChange={(e) => setFormData({ ...formData, highlight: e.target.value })} placeholder="Gion Matsuri" required />
           </div>
-          <DialogFooter><Button type="submit">Save Month</Button></DialogFooter>
+          <DialogFooter>
+            <Button type="submit">Save Month</Button>
+          </DialogFooter>
         </form>
       </DialogContent>
     </Dialog>

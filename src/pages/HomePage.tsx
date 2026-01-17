@@ -1,3 +1,5 @@
+// Balage Diniru Sandipa
+// M25W0576
 
 import { useEffect, useState } from "react";
 import HeroSection from "@/components/HeroSection";

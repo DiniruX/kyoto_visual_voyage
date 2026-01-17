@@ -1,3 +1,5 @@
+// Balage Diniru Sandipa
+// M25W0576
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -20,27 +22,15 @@ export function LanguageToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button
-          variant="ghost"
-          size="icon"
-          title="Change language(Development in progress)"
-          aria-label="Change language(Development in progress)"
-          disabled
-        >
+        <Button variant="ghost" size="icon" title="Change language(Development in progress)" aria-label="Change language(Development in progress)" disabled>
           <Languages className="h-5 w-5" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem 
-          onClick={() => handleLanguageChange("en")}
-          className={language === "en" ? "bg-accent" : ""}
-        >
+        <DropdownMenuItem onClick={() => handleLanguageChange("en")} className={language === "en" ? "bg-accent" : ""}>
           English
         </DropdownMenuItem>
-        <DropdownMenuItem 
-          onClick={() => handleLanguageChange("ja")}
-          className={language === "ja" ? "bg-accent" : ""}
-        >
+        <DropdownMenuItem onClick={() => handleLanguageChange("ja")} className={language === "ja" ? "bg-accent" : ""}>
           日本語
         </DropdownMenuItem>
       </DropdownMenuContent>

@@ -1,3 +1,5 @@
+// Balage Diniru Sandipa
+// M25W0576
 
 interface GoogleMapProps {
   lat: number;

@@ -1,3 +1,6 @@
+// Balage Diniru Sandipa
+// M25W0576
+
 import * as CollapsiblePrimitive from "@radix-ui/react-collapsible"
 
 const Collapsible = CollapsiblePrimitive.Root
