@@ -1,0 +1,269 @@
+
+{
+  "events": [
+    {
+      "id": "january-events",
+      "month": "January",
+      "highlight": "New Year Celebrations",
+      "description": "Experience traditional Hatsumode (first shrine visit of the year) at Kyoto's major shrines, with special New Year food and decorations throughout the city.",
+      "featuredEvents": [
+        {
+          "name": "Toka Ebisu Festival",
+          "date": "January 8-12",
+          "location": "Ebisu Shrine",
+          "description": "A lively festival dedicated to Ebisu, the god of business prosperity and wealth.",
+          "image": "https://images.unsplash.com/photo-1674980630304-dccf73fd176c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VG9rYSUyMEViaXN1JTIwRmVzdGl2YWx8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+          "name": "Hatsumode",
+          "date": "January 1-3",
+          "location": "Various shrines",
+          "description": "First shrine visit of the year, with special blessings and fortunes.",
+          "image": "https://images.unsplash.com/photo-1701772863070-62c506bbf11a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGF0c3Vtb2RlJTIwZmVzdGl2YWx8ZW58MHx8MHx8fDA%3D"
+        }
+      ]
+    },
+    {
+      "id": "february-events",
+      "month": "February",
+      "highlight": "Setsubun (Bean Throwing Festival)",
+      "description": "Join the festivities as temples across Kyoto hold Setsubun ceremonies to drive away evil spirits and welcome good fortune.",
+      "featuredEvents": [
+        {
+          "name": "Setsubun at Yoshida Shrine",
+          "date": "February 3",
+          "location": "Yoshida Shrine",
+          "description": "One of the most famous Setsubun celebrations featuring demon-masked performers.",
+          "image": "https://plus.unsplash.com/premium_photo-1698279879702-ee22fca67f04?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGVtb24lMjBtYXNrZWQlMjBwZXJmb3JtZXJzfGVufDB8fDB8fHww"
+        },
+        {
+          "name": "Plum Blossom Viewing",
+          "date": "Late February",
+          "location": "Kitano Tenmangu Shrine",
+          "description": "Early spring flower viewing of beautiful plum blossoms.",
+          "image": "https://plus.unsplash.com/premium_photo-1721103347319-6d4023c4bc8e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwcGx1bSUyMGJsb3Nzb21zfGVufDB8fDB8fHww"
+        }
+      ]
+    },
+    {
+      "id": "march-events",
+      "month": "March",
+      "highlight": "Higashiyama Hanatouro",
+      "description": "Explore Kyoto's historic Higashiyama district illuminated by thousands of lanterns, with special light displays at temples and along streets.",
+      "featuredEvents": [
+        {
+          "name": "Higashiyama Hanatouro",
+          "date": "Early March",
+          "location": "Higashiyama District",
+          "description": "Annual illumination event with lanterns lighting up historic streets.",
+          "image": "https://plus.unsplash.com/premium_photo-1675027775616-e61937ca8201?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFudGVybnMlMjBsaWdodGluZyUyMHVwfGVufDB8fDB8fHww"
+        },
+        {
+          "name": "Nagashi-bina at Shimogamo Shrine",
+          "date": "March 3",
+          "location": "Shimogamo Shrine",
+          "description": "Traditional doll floating ceremony on Girls' Day.",
+          "image": "https://images.unsplash.com/photo-1677138733660-e50ff1c652fe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJhZGl0aW9uYWwlMjBkb2xsJTIwZmxvYXRpbmclMjBjZXJlbW9ueXxlbnwwfHwwfHx8MA%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "april-events",
+      "month": "April",
+      "highlight": "Cherry Blossom Season",
+      "description": "Witness Kyoto's most magical time as cherry blossoms bloom across the city, creating stunning pink landscapes in parks, temples, and along the Philosopher's Path.",
+      "featuredEvents": [
+        {
+          "name": "Maruyama Park Cherry Blossom Viewing",
+          "date": "Early-Mid April",
+          "location": "Maruyama Park",
+          "description": "Most popular hanami (cherry blossom viewing) spot in Kyoto.",
+          "image": "https://images.unsplash.com/photo-1712617152952-297c72491ffd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fE1hcnV5YW1hJTIwUGFyayUyMGNoZXJyeSUyMGJsb3Nzb218ZW58MHx8MHx8fDA%3D"
+        },
+        {
+          "name": "Daigo-ji Temple Cherry Blossom Festival",
+          "date": "Second Sunday of April",
+          "location": "Daigo-ji Temple",
+          "description": "Historic cherry blossom festival dating back to 1598.",
+          "image": "https://images.unsplash.com/photo-1660145878486-e46fdbe980cc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RGFpZ28lMjBqaSUyMFRlbXBsZSUyMENoZXJyeSUyMEJsb3Nzb218ZW58MHx8MHx8fDA%3D"
+        }
+      ]
+    },
+    {
+      "id": "may-events",
+      "month": "May",
+      "highlight": "Aoi Matsuri (Hollyhock Festival)",
+      "description": "One of Kyoto's three major festivals featuring a grand procession in Heian-period costumes from the Imperial Palace to Shimogamo and Kamigamo shrines.",
+      "featuredEvents": [
+        {
+          "name": "Aoi Matsuri",
+          "date": "May 15",
+          "location": "Shimogamo and Kamigamo Shrines",
+          "description": "Historic procession with participants in Heian-period costumes.",
+          "image": "https://images.unsplash.com/photo-1704740533983-d3f6a9d190bf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEhlaWFuJTIwcGVyaW9kJTIwY29zdHVtZXN8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+          "name": "Mifune Matsuri",
+          "date": "Third Sunday of May",
+          "location": "Kurumazaki Shrine",
+          "description": "Ancient boat festival with court music and dancing.",
+          "image": "https://images.unsplash.com/photo-1740904342780-62deb708880f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QW5jaWVudCUyMGJvYXQlMjBmZXN0aXZhbCUyMHdpdGglMjBjb3VydCUyMG11c2ljJTIwYW5kJTIwZGFuY2luZ3xlbnwwfHwwfHx8MA%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "june-events",
+      "month": "June",
+      "highlight": "Hydrangea Season",
+      "description": "Visit temples like Mimurotoji and Fujinomori Shrine to see beautiful hydrangea gardens in full bloom, creating colorful landscapes across Kyoto.",
+      "featuredEvents": [
+        {
+          "name": "Hydrangea Viewing at Mimurotoji",
+          "date": "June",
+          "location": "Mimurotoji Temple",
+          "description": "Known as the 'Hydrangea Temple' with 10,000 hydrangea plants.",
+          "image": "https://images.unsplash.com/photo-1620534092687-37e819a28e7e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHlkcmFuZ2VhJTIwcGxhbnRzfGVufDB8fDB8fHww"
+        },
+        {
+          "name": "Takigi Noh",
+          "date": "June 1-2",
+          "location": "Heian Shrine",
+          "description": "Traditional Noh theater performances by firelight.",
+          "image": "https://images.unsplash.com/photo-1699119769951-44d4ef546e3c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVyZm9ybWFuY2VzJTIwYnklMjBmaXJlbGlnaHR8ZW58MHx8MHx8fDA%3D"
+        }
+      ]
+    },
+    {
+      "id": "july-events",
+      "month": "July",
+      "highlight": "Gion Matsuri",
+      "description": "Experience Japan's most famous festival with magnificent float processions, traditional music, food stalls, and the city-wide celebrations throughout the month.",
+      "featuredEvents": [
+        {
+          "name": "Gion Matsuri Yamaboko Junko",
+          "date": "July 17 and 24",
+          "location": "Downtown Kyoto",
+          "description": "Grand processions featuring elaborate festival floats.",
+          "image": "https://images.unsplash.com/photo-1721208813573-20ec1df0b2fd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R2lvbiUyME1hdHN1cml8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+          "name": "Yoiyama Evenings",
+          "date": "July 14-16",
+          "location": "Downtown Kyoto",
+          "description": "Evening celebrations with streets closed to traffic, food stalls, and festival atmosphere.",
+          "image": "https://images.unsplash.com/photo-1724227656171-e5d7959fa476?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZCUyMHN0YWxsc3xlbnwwfHwwfHx8MA%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "august-events",
+      "month": "August",
+      "highlight": "Daimonji Gozan Okuribi",
+      "description": "Watch as huge bonfires in the shape of characters are lit on mountains surrounding Kyoto, marking the end of the Obon festival and guiding ancestors' spirits back to their world.",
+      "featuredEvents": [
+        {
+          "name": "Daimonji Gozan Okuribi",
+          "date": "August 16",
+          "location": "Mountains surrounding Kyoto",
+          "description": "Five giant bonfires lit on mountains to send off ancestral spirits.",
+          "image": "https://plus.unsplash.com/premium_photo-1726014789160-2f1a07cfb648?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2lhbnQlMjBib25maXJlc3xlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Kyoto Kyo-Yuzen Lantern Festival",
+          "date": "Mid-August",
+          "location": "Kamogawa River",
+          "description": "Hundreds of hand-painted lanterns floating on the river.",
+          "image": "https://images.unsplash.com/photo-1637978313102-af2558d7d05a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFuZCUyMHBhaW50ZWQlMjBsYW50ZXJucyUyMGZsb2F0aW5nJTIwb24lMjB0aGUlMjByaXZlcnxlbnwwfHwwfHx8MA%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "september-events",
+      "month": "September",
+      "highlight": "Moon Viewing Events",
+      "description": "Join traditional tsukimi (moon viewing) events at temples and gardens across Kyoto, with special nighttime openings and cultural performances.",
+      "featuredEvents": [
+        {
+          "name": "Tsukimi at Daikakuji Temple",
+          "date": "Mid-September",
+          "location": "Daikakuji Temple",
+          "description": "Traditional moon viewing with boats on Osawa Pond.",
+          "image": "https://plus.unsplash.com/premium_photo-1675778444548-783c76f43364?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW9vbiUyMHZpZXdpbmd8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+          "name": "Kangetsu-no-yube at Kodai-ji",
+          "date": "Mid-September",
+          "location": "Kodai-ji Temple",
+          "description": "Special night illuminations for moon viewing season.",
+          "image": "https://images.unsplash.com/photo-1669291315286-b88e297ffe41?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5pZ2h0JTIwaWxsdW1pbmF0aW9uc3xlbnwwfHwwfHx8MA%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "october-events",
+      "month": "October",
+      "highlight": "Jidai Matsuri (Festival of Ages)",
+      "description": "Watch this historical pageant featuring a procession of over 2,000 participants dressed in costumes representing different periods of Kyoto's 1,200-year history.",
+      "featuredEvents": [
+        {
+          "name": "Jidai Matsuri",
+          "date": "October 22",
+          "location": "Kyoto Imperial Palace to Heian Shrine",
+          "description": "Historical parade showcasing costumes from different eras of Kyoto's history.",
+          "image": "https://images.unsplash.com/photo-1646642950652-8aa747a50a35?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhcmFkZSUyMHNob3djYXNpbmclMjBjb3N0dW1lc3xlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Kurama Fire Festival",
+          "date": "October 22",
+          "location": "Kurama Village",
+          "description": "One of Japan's most spectacular fire festivals with giant torches.",
+          "image": "https://images.unsplash.com/photo-1570987901688-914a426c390a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmlyZSUyMGZlc3RpdmFsc3xlbnwwfHwwfHx8MA%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "november-events",
+      "month": "November",
+      "highlight": "Autumn Foliage Season",
+      "description": "Explore Kyoto's temples and gardens transformed by brilliant autumn colors, with special evening illuminations highlighting the red maples against historic backdrops.",
+      "featuredEvents": [
+        {
+          "name": "Autumn Illuminations at Kiyomizu-dera",
+          "date": "November",
+          "location": "Kiyomizu-dera Temple",
+          "description": "Special evening openings with illuminated autumn foliage.",
+          "image": "https://plus.unsplash.com/premium_photo-1729782893014-4a3b60226f32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aWxsdW1pbmF0ZWQlMjBhdXR1bW4lMjBmb2xpYWdlfGVufDB8fDB8fHww"
+        },
+        {
+          "name": "Autumn Leaves at Eikando Temple",
+          "date": "November",
+          "location": "Eikando Temple",
+          "description": "Famous spot for vibrant maple foliage viewing.",
+          "image": "https://plus.unsplash.com/premium_photo-1729776369007-5eef87ce5e64?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmlicmFudCUyMG1hcGxlJTIwZm9saWFnZSUyMHZpZXdpbmd8ZW58MHx8MHx8fDA%3D"
+        }
+      ]
+    },
+    {
+      "id": "december-events",
+      "month": "December",
+      "highlight": "Arashiyama Hanatoro",
+      "description": "Experience the Arashiyama district illuminated by thousands of lanterns, with light installations along the famous bamboo grove and Togetsukyo Bridge.",
+      "featuredEvents": [
+        {
+          "name": "Arashiyama Hanatoro",
+          "date": "Mid-December",
+          "location": "Arashiyama District",
+          "description": "Bamboo groves and streets illuminated with thousands of lanterns.",
+          "image": "https://images.unsplash.com/photo-1674973622975-14d6556a0a95?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyZWV0cyUyMGlsbHVtaW5hdGVkJTIwd2l0aCUyMHRob3VzYW5kcyUyMG9mJTIwbGFudGVybnN8ZW58MHx8MHx8fDA%3D"
+        },
+        {
+          "name": "Joya-no-kane",
+          "date": "December 31",
+          "location": "Various temples",
+          "description": "Traditional bell-ringing ceremonies at temples to welcome the New Year.",
+          "image": "https://images.unsplash.com/photo-1598093751653-59e30b0a8f1d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVsbCUyMHJpbmdpbmclMjBjZXJlbW9uaWVzfGVufDB8fDB8fHww"
+        }
+      ]
+    }
+  ]
+}

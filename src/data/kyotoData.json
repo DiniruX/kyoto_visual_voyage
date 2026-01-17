@@ -1,0 +1,703 @@
+{
+  "categories": [
+    {
+      "id": "temples-shrines",
+      "name": "Temples & Shrines",
+      "description": "Discover Kyoto's spiritual heart through its ancient temples and serene shrines.",
+      "image": "https://images.unsplash.com/photo-1725008540656-1b9bc5bc42f6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hyaW5lc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "traditional-culture",
+      "name": "Traditional Culture",
+      "description": "Experience centuries-old Japanese traditions that continue to thrive in Kyoto.",
+      "image": "https://images.unsplash.com/photo-1616386232566-80015c23aeff?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amFwYW5lc2UlMjBjdWx0dXJlfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "food-cuisine",
+      "name": "Food & Cuisine",
+      "description": "Savor the authentic flavors of Kyoto's refined culinary traditions.",
+      "image": "https://images.unsplash.com/photo-1614563637806-1d0e645e0940?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amFwYW5lc2UlMjBmb29kfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "historic-districts",
+      "name": "Historic Districts",
+      "description": "Wander through preserved neighborhoods that showcase Kyoto's storied past.",
+      "image": "https://images.unsplash.com/photo-1722292838097-505398a61bc2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGphcGFuZXNlJTIwaGlzdG9yeXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "nature-gardens",
+      "name": "Nature & Gardens",
+      "description": "Find tranquility in Kyoto's meticulously designed gardens and natural landscapes.",
+      "image": "https://images.unsplash.com/photo-1699105040532-b5a77da17557?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8amFwYW5lc2UlMjBnYXJkZW5zfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "festivals-events",
+      "name": "Festivals & Events",
+      "description": "Join in Kyoto's vibrant seasonal celebrations and traditional festivities.",
+      "image": "https://plus.unsplash.com/premium_photo-1726761696462-2e680c15f565?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFwYW5lc2UlMjBmZXN0aXZhbHN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "modern-attractions",
+      "name": "Modern Attractions",
+      "description": "Explore contemporary Kyoto and its blend of innovation with tradition.",
+      "image": "https://images.unsplash.com/photo-1743242328617-8a353a80b1fe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGphcGFuZXNlJTIwYXR0cmFjdGlvbnN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation",
+      "description": "Navigate Kyoto efficiently using its comprehensive transportation network.",
+      "image": "https://images.unsplash.com/photo-1581419409419-ed7b4379a35b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amFwYW5lc2UlMjB0cmFuc3BvcnR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "souvenirs-crafts",
+      "name": "Souvenirs & Crafts",
+      "description": "Take home authentic Kyoto crafts reflecting centuries of artisan traditions.",
+      "image": "https://images.unsplash.com/photo-1695747001238-b9f4bc8215af?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amFwYW5lc2UlMjBjcmFmdHN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "hidden-gems",
+      "name": "Hidden Gems",
+      "description": "Discover lesser-known treasures that reveal Kyoto's authentic character.",
+      "image": "https://plus.unsplash.com/premium_photo-1677829178071-1d8375486dd8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8amFwYW5lc2UlMjBoaWRkZW4lMjBnZW1zfGVufDB8fDB8fHww"
+    }
+  ],
+  "items": [
+    {
+      "id": "fushimi-inari",
+      "categoryId": "temples-shrines",
+      "name": "Fushimi Inari Shrine",
+      "description": "Famous for its thousands of vermilion torii gates, Fushimi Inari is dedicated to the Shinto god of rice. The shrine sits at the base of a mountain also named Inari, and includes trails up the mountain to many smaller shrines which span 4 kilometers and take approximately 2 hours to walk up.",
+      "location": {
+        "address": "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto",
+        "coordinates": { "lat": 34.9671, "lng": 135.7727 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1558862107-d49ef2a04d72?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnVzaGltaSUyMGluYXJpfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1571754687694-15eb9a3ac00b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZ1c2hpbWklMjBpbmFyaXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1670613460131-8128c395c4c7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGZ1c2hpbWklMjBpbmFyaXxlbnwwfHwwfHx8MA%3D%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/0e7rOnaD8vU?si=_DQdE_JDXiw_w8AF",
+      "avgSpendTime": 120,
+      "buses": ["JR Line to Inari Station", "Bus 5 from Kyoto Station"]
+    },
+    {
+      "id": "kinkakuji",
+      "categoryId": "temples-shrines",
+      "name": "Kinkaku-ji (Golden Pavilion)",
+      "description": "Kinkaku-ji, officially named Rokuon-ji, is a Zen Buddhist temple in Kyoto. The top two floors of the pavilion are covered in gold leaf. The temple was built as a villa for the shogun Ashikaga Yoshimitsu in the late 14th century, and after his death it became a Buddhist temple of the Rinzai sect.",
+      "location": {
+        "address": "1 Kinkakujicho, Kita Ward, Kyoto",
+        "coordinates": { "lat": 35.0394, "lng": 135.7292 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1698137363944-d34de2b00bce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2lua2FrdWppfGVufDB8fDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1726579710883-7040d0e6d379?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8a2lua2FrdWppfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1692852063722-3581f8b7321e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGtpbmtha3VqaXxlbnwwfHwwfHx8MA%3D%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/4SrirWlv4yc?si=g9JjxZYqF-GbsxUe",
+      "avgSpendTime": 60,
+      "buses": ["Bus 101, 205 from Kyoto Station", "Bus 59 from Kawaramachi"]
+    },
+    {
+      "id": "gion-geisha",
+      "categoryId": "traditional-culture",
+      "name": "Gion Geisha District",
+      "description": "Gion is Kyoto's most famous geisha district, located around Shijo Avenue between Yasaka Shrine in the east and the Kamo River in the west. It is filled with shops, restaurants and ochaya (teahouses), where geiko (Kyoto dialect for geisha) and maiko (geiko apprentices) entertain.",
+      "location": {
+        "address": "Gion, Higashiyama Ward, Kyoto",
+        "coordinates": { "lat": 35.0022, "lng": 135.7766 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1547647496-1ef40ef62bc4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lvbiUyMGdlaXNoYXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1661374974767-0c8069306aca?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z2lvbiUyMGdlaXNoYXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1619995439368-84686d95272e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGdpb24lMjBnZWlzaGF8ZW58MHx8MHx8fDA%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/YFhNH2KdG9k?si=vicL3D1dbjq9SBER",
+      "avgSpendTime": 90,
+      "buses": ["Bus 100, 206 from Kyoto Station", "Keihan Line to Gion-Shijo Station"]
+    },
+    {
+      "id": "nishiki-market",
+      "categoryId": "food-cuisine",
+      "name": "Nishiki Market",
+      "description": "Known as 'Kyoto's Kitchen', this narrow, five-block long shopping street has more than 100 shops and restaurants. Nishiki Market is where Kyoto's residents have been shopping for centuries, specializing in all things food related, like fresh seafood, produce, knives and cookware.",
+      "location": {
+        "address": "Nishikikoji-dori, Nakagyo-ku, Kyoto",
+        "coordinates": { "lat": 35.0054, "lng": 135.7648 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1701001909948-8048598fbc92?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlzaGlraSUyMG1hcmtldHxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1704524853906-94753b3946cb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmlzaGlraSUyMG1hcmtldHxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1739363443125-97e4112ddbc4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5pc2hpa2klMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/bVKnQ9lw3PY?si=Rkr3wG6p2suPlY4K",
+      "avgSpendTime": 120,
+      "buses": ["Karasuma Line to Shijo Station", "Bus 5, 17, 205 from Kyoto Station"]
+    },
+    {
+      "id": "arashiyama-bamboo",
+      "categoryId": "nature-gardens",
+      "name": "Arashiyama Bamboo Grove",
+      "description": "The Arashiyama Bamboo Grove is one of Kyoto's top sights and for good reason: standing amid these soaring stalks of bamboo is like being in another world. The bamboo has been used to manufacture various products, such as baskets, cups, boxes and mats at local workshops for centuries.",
+      "location": {
+        "address": "Arashiyama, Ukyo Ward, Kyoto",
+        "coordinates": { "lat": 35.0166, "lng": 135.6735 }
+      },
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1722593856904-77f04a2866fb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXJhc2hpeWFtYSUyMGJhbWJvb3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1511364033374-07ffa0c99c4c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXJhc2hpeWFtYSUyMGJhbWJvb3xlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1557153416-8c1a9a603b0e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGFyYXNoaXlhbWElMjBiYW1ib298ZW58MHx8MHx8fDA%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/JpEjSABgaYo?si=3UXOnIQydgZdIGr2",
+      "avgSpendTime": 45,
+      "buses": ["JR Line to Saga-Arashiyama Station", "Bus 28 from Kyoto Station"]
+    },
+    {
+      "id": "Kaiseki_Ryōri",
+      "categoryId": "food-cuisine",
+      "name": "Kaiseki Ryōri (懐石料理)",
+      "description": "Kyoto’s Kaiseki Ryōri is a refined multi-course meal that embodies Japanese haute cuisine. Each dish is meticulously prepared using seasonal ingredients, focusing on balance, texture, and presentation. Courses often include sashimi, grilled fish, simmered vegetables, and delicate soups. Kaiseki reflects the harmony of nature and is served in traditional ryokan (inns) or high-end restaurants. The experience is as much about aesthetics as it is about taste, making it a must-try for visitors seeking authentic Kyoto dining.",
+      "location": {
+        "address": "Near Maruyama Park (Honten) / Gion (Roan Branch).",
+        "coordinates": { "lat": 35.0029, "lng": 135.7763 }
+      },
+      "images": ["https://media.istockphoto.com/id/178094863/ja/ストックフォト/懐石-ryōrimukōzuke.jpg?s=612x612&w=0&k=20&c=vjZ510hGdVlU4WvkI_T1-gPph2sppOYghURdmpm42bc=", "https://media.istockphoto.com/id/178737716/ja/ストックフォト/懐石-ryōrihassun.jpg?s=612x612&w=0&k=20&c=xe5Ss9FwOuegPb1gRZM7o5c_YspaVOfeaE8oOZ0O6CU="],
+      "videoUrl": "https://www.youtube.com/embed/QeXwFNQlY1o?si=CWbDCtT_iuoGrvsO",
+      "avgSpendTime": 30,
+      "buses": ["Keihan Line from Kyoto Station (transfer at Sanjo Station or Tofukuji Station) → Get off at Gion-Shijo Station", "Bus 206 from Kyoto Station"]
+    },
+    {
+      "id": "Yudofu",
+      "categoryId": "food-cuisine",
+      "name": "Yudofu (湯豆腐)",
+      "description": "A simple yet iconic Kyoto dish, Yudofu is silken tofu simmered in a light kombu (kelp) broth, served with ponzu or sesame dipping sauce. This dish highlights Kyoto’s Buddhist vegetarian traditions (shojin ryori) and is especially popular in winter. The delicate flavor of tofu shines, making it a favorite in temples like Nanzen-ji, where many tofu specialty restaurants are located.",
+      "location": {
+        "address": "One of Kyoto’s oldest tofu restaurants (since 1635), located near Nanzen-ji Temple..",
+        "coordinates": { "lat": 35.0124, "lng": 135.7946 }
+      },
+      "images": ["https://media.istockphoto.com/id/2203030270/ja/ストックフォト/豆腐と野菜の日本の湯豆腐鍋.jpg?s=612x612&w=0&k=20&c=Dx525LyZdDz864GZkbu2E31Aox2iBssTcUEq511Eujs=", "https://media.istockphoto.com/id/649758082/ja/ストックフォト/豆腐鍋湯豆腐和食.jpg?s=612x612&w=0&k=20&c=diy4NPFoKZLcJTkiu1IDv01miW-wJ2J2VxKRqWluLpc=", "https://media.istockphoto.com/id/1372503855/ja/ストックフォト/牡蠣の湯羽.jpg?s=612x612&w=0&k=20&c=XCaVjqD4s2Ahu6MUiGs37HHOQAqzpwf_1QcUwYSyWkI="],
+      "videoUrl": "https://www.youtube.com/embed/UxnOX6KakLk?si=XZVRMsHGSBCUlTCU",
+      "avgSpendTime": 30,
+      "buses": [
+        "Take the Karasuma Subway Line (K11, Kyoto Station) → Transfer at Karasuma Oike Station to the Tozai Line (T09) → Get off at Keage Station (T10)",
+        "Bus 5 from Kyoto Station"
+      ]
+    },
+    {
+      "id": "Matcha_Sweets",
+      "categoryId": "food-cuisine",
+      "name": "Matcha Sweets (抹茶スイーツ)",
+      "description": "Kyoto is the heart of Japanese tea culture, and matcha (green tea) sweets are a staple. From matcha ice cream to wagashi (traditional confections) like mochi and warabimochi, these treats balance bitterness and sweetness. Famous spots like Ippodo Tea and Tsujiri serve high-quality matcha desserts that pair perfectly with freshly whisked tea.",
+      "location": {
+        "address": "Gion",
+        "coordinates": { "lat": 35.0019, "lng": 135.7745 }
+      },
+      "images": ["https://plus.unsplash.com/premium_photo-1694825173868-ed003c071068?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWF0Y2hhfGVufDB8MHwwfHx8MA%3D%3D", "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0Y2hhfGVufDB8MHwwfHx8MA%3D%3D", "https://images.unsplash.com/photo-1708573106073-e27e43ec7fda?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWF0Y2hhfGVufDB8MHwwfHx8MA%3D%3D"],
+      "videoUrl": "ttps://www.youtube.com/embed/fAkPPyodzSM?si=GwcjSx9RaaypLg9p",
+      "avgSpendTime": 30,
+      "buses": ["Keihan Main line from Kyoto Station", "Bus 206 and 100 from Kyoto Station"]
+    },
+    {
+      "id": "Obanzai",
+      "categoryId": "food-cuisine",
+      "name": "Obanzai (おばんざい)",
+      "description": "Obanzai refers to Kyoto-style home-cooked dishes, often featuring locally sourced vegetables, tofu, and fish. Small plates like nasu dengaku (miso-glazed eggplant), simmered kabocha (pumpkin), and tsukemono (pickles) are common. These dishes showcase Kyoto’s emphasis on seasonal and sustainable eating.",
+      "location": {
+        "address": "Kawaramachi.",
+        "coordinates": { "lat": 35.0038, "lng": 135.7675 }
+      },
+      "images": ["https://media.timeout.com/images/103420420/1920/1440/image.webp", "https://images.app.goo.gl/2VxrbSVu6XUdKeNM7", "https://images.app.goo.gl/PA7DVuQBA6m8Vah86"],
+      "videoUrl": "https://www.youtube.com/embed/1KjlPGyjQAc?si=rRQ0E1W4Ze1wawNP",
+      "avgSpendTime": 25,
+      "buses": ["Kyoto Station → Karasuma Line to Karasuma-Oike → Transfer to Tozai Line → Kawaramachi Station", "Bus 4 and 205 from Kyoto Station"]
+    },
+    {
+      "id": "Kyo-wagashi",
+      "categoryId": "food-cuisine",
+      "name": "Kyo-wagashi (京和菓子)",
+      "description": "Kyoto’s traditional wagashi are artistic sweets made from red bean paste, rice flour, and agar. Seasonal designs reflect nature, such as cherry blossoms in spring or maple leaves in autumn. Famous shops like Kagizen Yoshifusa and Kameya Yoshinaga craft these delicate confections, often served with tea.",
+      "location": {
+        "address": "264 Gionmachi Kitagawa, Higashiyama Ward, Kyoto, 605-0073.",
+        "coordinates": { "lat": 35.0036, "lng": 135.7749 }
+      },
+      "images": ["https://media.istockphoto.com/id/2004481098/ja/ストックフォト/wagashi-traditional-japanese-confection-served-outdoor-restaurant.jpg?s=612x612&w=0&k=20&c=gxVpEjZWL0fHcmExopSP9s0GMT9uJhzrdjB8VS-6wjE=", "https://media.istockphoto.com/id/474613512/ja/ストックフォト/日本のスイート.jpg?s=612x612&w=0&k=20&c=BnkF0G5jdTKrxxS8aWNtRnuT_-KDczTP0sJD2Vus7nU=", "https://media.istockphoto.com/id/1190777669/ja/ストックフォト/日本の伝統的な菓子和菓子和菓子を飾るクラフトウーマン-保存.jpg?s=612x612&w=0&k=20&c=SSXvkEY2FmKMKMK5qVCCzSmaBDvVPo4XISOnXWQzPr8="],
+      "videoUrl": "https://www.youtube.com/embed/ioIQXnltsZ8?si=LCEY-c5YXqUA_DKL",
+      "avgSpendTime": 25,
+      "buses": ["Keihan Main Line → Gion-Shijo Station", "Bus 206 from Kyoto Station"]
+    },
+    {
+      "id": "kyozushi",
+      "categoryId": "food-cuisine",
+      "name": "Kyozushi (Kyoto-style Sushi)",
+      "description": "Born from the challenge of preserving fish without refrigeration, Kyozushi uses vinegar, salt, and pickling methods. Often featuring marinated mackerel or herring, it embodies Kyoto’s culinary history. Delicate and vinegared, it’s a distinctive take on sushi.",
+      "location": {
+        "address": "292-1 Gionmachi Kitagawa, Higashiyama Ward, Kyoto, 605-0073",
+        "coordinates": { "lat": 35.0038, "lng": 135.7752 }
+      },
+      "images": ["https://media.istockphoto.com/id/1158555748/ja/ストックフォト/スパイシーなキムチサラダと寿司.jpg?s=612x612&w=0&k=20&c=4BVEaiWbW6N3zk4hXWorS2HrrkD5Eq0KTBX77U-v70k=", "https://media.istockphoto.com/id/1271766525/ja/ストックフォト/サーモンとうなのと一緒に巻く.jpg?s=612x612&w=0&k=20&c=w6OiuTHQMFchotgVHXte-GbfCbgqQFA46rtoGpp2ww4=", "https://media.istockphoto.com/id/858859384/ja/ストックフォト/寿司.jpg?s=612x612&w=0&k=20&c=eNPtK-u3KhmBnc3DdT4yozXBFZiY8H6c9vlizWAG7pY="],
+      "videoUrl": "https://www.youtube.com/embed/ZaRpYTqrCjo?si=OBUjRYozGc_efny7",
+      "avgSpendTime": 25,
+      "buses": ["Keihan Main Line → Gion-Shijo Station", "Bus 206 from Kyoto Station"]
+    },
+    {
+      "id": "Yatsuhashi",
+      "categoryId": "food-cuisine",
+      "name": "Yatsuhashi",
+      "description": "A beloved Kyoto wagashi (sweet), made from glutinous rice flour, sugar, and cinnamon. The baked version is crisp and resembles a harp, while the “nama” version is soft, mochi-like, often folded around sweet red bean paste (anko). A must-buy souvenir.",
+      "location": {
+        "address": "298 Ebisucho, Nakagyo Ward (near Nishiki Market)",
+        "coordinates": { "lat": 35.0035, "lng": 135.7675 }
+      },
+      "images": ["https://media.istockphoto.com/id/1401800079/ja/ストックフォト/木製のボウルのカラフルな餃子中華料理店の竹蒸し器の中華餃子中華屋台の食べ物おいしい屋台の食べ物餃子セット餃子の品揃え広州料理中国.jpg?s=612x612&w=0&k=20&c=eyruHwa1uiy2WTpzLFv7gtYR6IHsoYmb-pOBE5Pp1tI=", "https://media.istockphoto.com/id/1181783259/ja/ストックフォト/日本旅行.jpg?s=612x612&w=0&k=20&c=_940-USOPktq4HOs4AC3ZeGuM-3o7KKsQsm7HFZzgF0=", "https://media.istockphoto.com/id/466243492/ja/ストックフォト/日本料理.jpg?s=612x612&w=0&k=20&c=zDBGnzqnM7uSAQutcVuShU-wpXOxK7u20CQayjczqx4="],
+      "videoUrl": "https://www.youtube.com/embed/T-STxpMzsKk?si=N8P1KxSqg1wiXePl",
+      "avgSpendTime": 35,
+      "buses": ["Keihan Main Line → Demachiyanagi", "Bus 5 from Kyoto Station"]
+    },
+    {
+      "id": "Shojin Ryori",
+      "categoryId": "food-cuisine",
+      "name": "Shojin Ryori",
+      "description": "Vegetarian temple cuisine originally crafted for Buddhist monks in Kyoto’s Zen temples. Entirely plant-based, it avoids pungent flavors like garlic and onion, focusing instead on tofu, seaweed, seasonal vegetables, rice, and miso. The result is a beautifully balanced, mindful, and wholesome meal steeped in tradition. While less common than regular restaurants, many inner Kyoto temples offer lodging and meals, and small eateries nearby serve shojin-style sets.",
+      "location": {
+        "address": "53 Murasakino Daitokujicho, Kita Ward",
+        "coordinates": { "lat": 35.0446, "lng": 135.7463 }
+      },
+      "images": ["https://media.istockphoto.com/id/1358353520/ja/ストックフォト/日本の代表的な家庭料理の食材大豆を使ったビーガン料理.jpg?s=612x612&w=0&k=20&c=ekoQOPK5RRt4IQiWgqjVByyp-AnDYbMU_PquONo11x8=", "https://media.istockphoto.com/id/1438565433/ja/ストックフォト/箸で小豆ご飯関飯を食べる女性観光客.jpg?s=612x612&w=0&k=20&c=JALna6VsSWHhuVl2vFGAD5wdKeXF54FOYhGuUonLfFQ=", "https://media.istockphoto.com/id/2127068841/ja/ストックフォト/日本のベジタリアン料理寿司とスープ麺類.jpg?s=612x612&w=0&k=20&c=qBr3yNiyBB8h7saYdnXmNLQlyLc2TtQ7PJV5_Zf-vPI="],
+      "videoUrl": "https://www.youtube.com/embed/FccyOPY_XUg?si=YZMSjLKzYYaD9qPx",
+      "avgSpendTime": 35,
+      "buses": ["Keihan Main Line", "Bus 206 from Kyoto Station"]
+    },
+    {
+      "id": "Kiyomizu-dera",
+      "categoryId": "temples-shrines",
+      "name": "Kiyomizu-dera (清水寺)",
+      "description": "Kiyomizu-dera, meaning Pure Water Temple, is one of Kyoto’s most celebrated landmarks and a UNESCO World Heritage Site. Founded in 778 AD, the temple is dedicated to Kannon, the Goddess of Mercy. Its most iconic feature is the massive wooden stage that juts out from the main hall, 13 meters above the hillside, offering panoramic views of Kyoto and the seasonal beauty of cherry blossoms or autumn foliage.",
+      "location": {
+        "address": "Higashiyama, Kyoto, near the Kamo River and just east of Gion-Shijo Station",
+        "coordinates": { "lat": 34.9948, "lng": 135.785 }
+      },
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1674824835450-c44bee742dfe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a2l5b21penUlMjBkZXJhfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1711490553937-40b8ca4161b8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2l5b21penUlMjBkZXJhfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1562238869-9d59795d6a2a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2l5b21penUlMjBkZXJhfGVufDB8fDB8fHww"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/LO262WSTI6w?si=WGBSaBfDFi59TvvH",
+      "avgSpendTime": 35,
+      "buses": ["Keihan Line to Kiyomizu-Gojo Station, then a 20-minute walk.", "Bus 100 and 206 from Kyoto Station"]
+    },
+    {
+      "id": "Ginkaku-ji",
+      "categoryId": "temples-shrines",
+      "name": "Ginkaku-ji (銀閣寺) – The Silver Pavilion",
+      "description": "Ginkaku-ji, officially named Jishō-ji (Temple of Shining Mercy), is a Zen temple located in Kyoto’s Sakyo Ward. It was originally built in 1482 by shogun Ashikaga Yoshimasa as a retirement villa, modeled after the Golden Pavilion (Kinkaku-ji) built by his grandfather. Unlike its golden counterpart, Ginkaku-ji was intended to be covered in silver foil, but the plans were never completed—hence, its modest wooden facade exudes wabi-sabi, the Zen aesthetic of simple, subdued beauty.",
+      "location": {
+        "address": "Kamigyo Ward near Kurama-guchi Station ",
+        "coordinates": { "lat": 35.02728, "lng": 135.798 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1712367655833-999e4cfc8b08?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2lua2FrdWppfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1705964219387-8f6b70f1b7eb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lua2FrdWppfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1712374949744-dcce9c289182?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2lua2FrdWppfGVufDB8fDB8fHww"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/qz5JVQ-Dc1M?si=Dvd-C_Kz6tUVJ0pN",
+      "avgSpendTime": 50,
+      "buses": ["Keihan Line to Demachiyangi Station", "Bus 5 and 17 from Kyoto Station"]
+    },
+    {
+      "id": "Yasaka Shrine ",
+      "categoryId": "temples-shrines",
+      "name": "Yasaka Shrine (八坂神社)",
+      "description": "Yasaka Shrine, also known as Gion Shrine, is one of Kyoto’s most prominent Shinto shrines, located between the Gion and Higashiyama districts. Established over 1,350 years ago, the shrine is dedicated to Susanoo-no-Mikoto, the storm god, along with his consort Kushinadahime and their eight offspring. It has played a central spiritual and cultural role in the city’s life for centuries.",
+      "location": {
+        "address": "Hanamikoji Street yasaka shrine ",
+        "coordinates": { "lat": 35.037, "lng": 135.7787 }
+      },
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1690957796569-32bd288ca4bb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8eWFzYWthJTIwc2hyaW5lfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1713346642924-fdda99d45870?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eWFzYWthJTIwc2hyaW5lfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1724410509337-5e0d25107424?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHlhc2FrYSUyMHNocmluZXxlbnwwfHwwfHx8MA%3D%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/ZfvTRMDxx_0?si=fm0_oc8wCYcCBran",
+      "avgSpendTime": 25,
+      "buses": ["Take the Keihan Line to Gion-Shijo Station, a 5-minute walk.", "Bus 100 and 206 from Kyoto Station"]
+    },
+    {
+      "id": "Ryoan-ji",
+      "categoryId": "temples-shrines",
+      "name": "Ryoan-ji (龍安寺) – The Rock Garden Temple",
+      "description": "Ryoan-ji, located in northwest Kyoto, is one of Japan’s most famous Zen temples, particularly renowned for its mysterious rock garden. Originally an aristocratic estate during the Heian Period, it was converted into a Zen temple in 1450 by Hosokawa Katsumoto, a military leader. Today, Ryoan-ji is a UNESCO World Heritage Site and a prime example of the austere beauty of Japanese Zen culture.",
+      "location": {
+        "address": "Kita-ku ward, kyoto",
+        "coordinates": { "lat": 35.0346, "lng": 135.7181 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1669954808088-53a3082c00d8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cnlvYW4lMjBqaXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1700059476897-a19e24bd4370?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cnlvYW4lMjBqaXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1640361141664-7a37f59abbb1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnlvYW4lMjBqaXxlbnwwfHwwfHx8MA%3D%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/Tc53jlSDY_s?si=SoJbRHDnEAWAn5iI",
+      "avgSpendTime": 55,
+      "buses": ["Keifuku Kitano Line to Ryoanji Station, a 5-minute walk.", "Bus 50 and 55 from Kyoto Station"]
+    },
+    {
+      "id": "Sanjusangen-do",
+      "categoryId": "temples-shrines",
+      "name": "Sanjusangen-do (三十三間堂) – The Hall of 1,001 Statues",
+      "description": "Sanjusangen-do, officially known as Rengeo-in (蓮華王院), is a unique Buddhist temple located in the Higashiyama district of Kyoto. The name Sanjusangen-do translates to Hall with Thirty-Three Spaces Between Columns, referring to the architectural structure of the temple’s massive wooden hall, which stretches 120 meters in length—making it Japan’s longest wooden building. The temple was originally founded in 1164 by Emperor Go-Shirakawa and rebuilt in 1266 after a fire. It is famous for housing 1,001 life-sized statues of the Thousand-Armed Kannon, the goddess of compassion. These gilded wooden statues are arranged in ten rows and flank a central, larger seated Kannon figure, which is a National Treasure of Japan. The sight of this seemingly infinite array of serene, identical figures is both awe-inspiring and humbling.",
+      "location": {
+        "address": "Shimogyo-ku ward, kyoto",
+        "coordinates": { "lat": 34.9873, "lng": 135.7764 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1720433963013-91fd65fdcb4a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2FuanVzYW5nZW4lMjBkbyUyMHRlbXBsZXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1691960159059-04976913256a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8U2FuanVzYW5nZW4lMjBkbyUyMHRlbXBsZXxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1720433963013-91fd65fdcb4a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2FuanVzYW5nZW4lMjBkbyUyMHRlbXBsZXxlbnwwfHwwfHx8MA%3D%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/wkYbUhmFFi0?si=D7SN-2yN4hejzcEx",
+      "avgSpendTime": 30,
+      "buses": ["Keihan main line to shichijo Station", "Bus 100, 206 and 208 from Kyoto Station"]
+    },
+    {
+      "id": "Tofuku-ji",
+      "categoryId": "temples-shrines",
+      "name": "Tofuku-ji (東福寺) – The Temple of Autumn Colors",
+      "description": "Tofuku-ji is a major Zen temple located in southeastern Kyoto and is renowned for its breathtaking autumn foliage and classic Zen architecture. Founded in 1236 by the powerful Fujiwara clan, the temple was named by combining characters from two great Nara temples—Todai-ji and Kofuku-ji—symbolizing the temple's prestigious heritage.",
+      "location": {
+        "address": "Mina-ku ward, kyoto",
+        "coordinates": { "lat": 34.9804, "lng": 135.7786 }
+      },
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1726579710883-7040d0e6d379?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9mdWt1amklMjB0ZW1wbGV8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1702954402099-5d702f164ef8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dG9mdWt1amklMjB0ZW1wbGV8ZW58MHx8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1716968595130-3df477c0087d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dG9mdWt1amklMjB0ZW1wbGV8ZW58MHx8MHx8fDA%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/XZo7SpVBwXk?si=280ej9M0tRmegGNB",
+      "avgSpendTime": 45,
+      "buses": ["the JR Nara Line to Tofukuji Station", "Bus 208 from Kyoto Station"]
+    },
+    {
+      "id": "Kinkaku-ji (Golden Pavilion) Garden",
+      "categoryId": "nature-gardens",
+      "name": "Kinkaku-ji (Golden Pavilion) Garden (金閣寺)",
+      "description": "The grounds surrounding Kinkaku-ji, officially known as Rokuon-ji, offer much more than just a view of its iconic gilded structure; they showcase a quintessential example of a meticulously crafted Japanese strolling garden from the Muromachi period. The centerpiece of this garden is the Kyōkochi (Mirror Pond), whose calm surface perfectly reflects the radiant Golden Pavilion, creating a double image that shifts with every ripple and change in light. ",
+      "location": {
+        "address": "1 Kinkakujicho, Kita Ward, Kyoto, 603-8361",
+        "coordinates": { "lat": 35.0394, "lng": 135.7292 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1653997412308-308d945f687b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1694475582430-a893d0dc42a4?q=80&w=389&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1715751054158-28636512a348?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "videoUrl": "https://youtu.be/lE_aZ35RNlA?si=Vc9IsGJFVlkpq4L8",
+      "avgSpendTime": 25,
+      "buses": ["JR Sagano Line from Kyoto Station to Emmachi Station ", "Bus 101 and 205 from Kyoto Station"]
+    },
+    {
+      "id": "Tenryu-ji Temple Garden",
+      "categoryId": "nature-gardens",
+      "name": "Tenryu-ji Temple Garden (天龍寺)",
+      "description": "The Sogenchi Teien (Sogenchi Pond Garden) at Tenryu-ji, a UNESCO World Heritage site, is renowned for its exceptional representation of Zen garden design. This masterpiece was created in the 14th century by the esteemed monk and garden designer Musō Soseki. The garden skillfully incorporates shakkei (borrowed scenery), using the majestic peaks of Arashiyama in the distance as an integral part of its expansive landscape. At the center of the garden is a large, serene pond, beautifully accented with carefully arranged rocks and aged pine trees. Each element contributes to a composition that exudes profound natural beauty and spiritual tranquility. Visitors are invited to stroll along a pleasant path that encircles the pond, allowing them to experience a series of changing vistas—from reflections on the water to the interplay of rock formations and lush foliage. ",
+      "location": {
+        "address": "68 Susukinobaba-cho, Saga-Tenryuji, Ukyo-ku, Kyoto, 616-8385",
+        "coordinates": { "lat": 35.0146, "lng": 135.6661 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1696775274609-8a6cc00d1763?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1617812985066-8560d4d17f05?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1722897917368-9f7b9d7ada04?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "videoUrl": "https://youtu.be/979UZGt3PeE?si=YDQko9gPjYFUCLSf",
+      "avgSpendTime": 25,
+      "buses": ["JR Sagano Line from Kyoto Station, disembarking at Saga-Arashiyama Station ", "Bus 55 from Kyoto Station"]
+    },
+    {
+      "id": "Kyoto Imperial Palace Park",
+      "categoryId": "nature-gardens",
+      "name": "Kyoto Imperial Palace Park (京都御苑)",
+      "description": "Kyoto Imperial Palace Park, also known as Kyoto Gyoen, is a vast, green sanctuary located in the heart of Kyoto. It serves as a tranquil escape from the city's bustling pace. This expansive public park encompasses the former grounds of both the Kyoto Imperial Palace and the Sento Imperial Palace, offering free access to everyone. More than just an open space, Kyoto Gyoen features meticulously maintained landscapes, including spacious lawns ideal for leisurely strolls, winding paths through diverse tree groves, and several charming ponds. It is a popular spot for locals to engage in outdoor activities, have picnics, or simply relax in nature's peaceful embrace.",
+      "location": {
+        "address": "Kyoto Gyoen, Kamigyo Ward, Kyoto, 602-0881",
+        "coordinates": { "lat": 35.0232, "lng": 135.761 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1674880809863-639310e559ee?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1707636305578-cd29719b8d82?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1546618959-f8cdfc8b44b5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "videoUrl": "https://youtu.be/j9pJ7wEKjLY?si=oO1iY1oHoE70pCzi",
+      "avgSpendTime": 35,
+      "buses": ["JR Sagano Line from Kyoto Station, disembarking at Saga-Arashiyama Station ", "Bus 55 from Kyoto Station"]
+    },
+    {
+      "id": "Kyoto Imperial Palace Park",
+      "categoryId": "nature-gardens",
+      "name": "Kyoto Imperial Palace Park (京都御苑)",
+      "description": "Kyoto Imperial Palace Park, also known as Kyoto Gyoen, is a vast, green sanctuary located in the heart of Kyoto. It serves as a tranquil escape from the city's bustling pace. This expansive public park encompasses the former grounds of both the Kyoto Imperial Palace and the Sento Imperial Palace, offering free access to everyone. More than just an open space, Kyoto Gyoen features meticulously maintained landscapes, including spacious lawns ideal for leisurely strolls, winding paths through diverse tree groves, and several charming ponds. It is a popular spot for locals to engage in outdoor activities, have picnics, or simply relax in nature's peaceful embrace.",
+      "location": {
+        "address": "Kyoto Gyoen, Kamigyo Ward, Kyoto, 602-0881",
+        "coordinates": { "lat": 35.0232, "lng": 135.761 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1674880809863-639310e559ee?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1707636305578-cd29719b8d82?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1546618959-f8cdfc8b44b5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "videoUrl": "https://youtu.be/j9pJ7wEKjLY?si=oO1iY1oHoE70pCzi",
+      "avgSpendTime": 35,
+      "buses": ["Keihan line to marutamachi station ", "Bus 17 from Kyoto Station"]
+    },
+    {
+      "id": "Shugakuin Imperial Villa",
+      "categoryId": "nature-gardens",
+      "name": "Shugakuin Imperial Villa (修学院離宮)",
+      "description": "Shugakuin Imperial Villa is an outstanding example of 17th-century Japanese landscape architecture, created for Emperor Go-Mizunoo. Its brilliance lies in the masterful integration of artificial design with the vast, surrounding natural environment, utilizing the concept of shakkei, or borrowed scenery. The villa consists of three distinct garden areas — the Lower, Middle, and Upper Villas — all thoughtfully connected by serene pathways that wind through charming rice paddies and picturesque pine groves, creating a cohesive and immersive experience.",
+      "location": {
+        "address": "Kyoto City, Sakyo Ward, Shugakuin Yabusoe-cho1,606-8052",
+        "coordinates": { "lat": 35.0601, "lng": 135.8016 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1718276109575-5dfa722a389d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1723983556769-47fd055e9286?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1733653025217-a8dde295956b?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "videoUrl": "https://youtu.be/aAlrbSGEK-k?si=FLE_aGFUjEjpKG0I",
+      "avgSpendTime": 30,
+      "buses": ["Keihan line to demachiyanagi station  and then Eizan Railway (Eiden Line) from Demachiyanagi Station to Shugakuin Station", "Bus 5 from Kyoto Station"]
+    },
+    {
+      "id": "Katsura Imperial Villa ",
+      "categoryId": "nature-gardens",
+      "name": "Katsura Imperial Villa (桂離宮)",
+      "description": "Katsura Imperial Villa is widely regarded as a prime example of the integration of Japanese garden design and architecture, representing the pinnacle of the sukiya-zukuri (tea house style) from the 17th century. Commissioned for a branch of the Imperial family, the villa features an expansive strolling garden that showcases elegant design. At its center lies the tranquil Katsura-no-ike pond, adorned with thoughtfully designed islands, graceful bridges, and strategically placed tea houses.",
+      "location": {
+        "address": "Kyoto City, Nishikyo Ward, Katsura Misono,615-8014",
+        "coordinates": { "lat": 34.9785, "lng": 135.7001 }
+      },
+      "images": [
+        "https://media.gettyimages.com/id/71446291/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/reflection-of-trees-and-rocks-in-a-lake-katsura-imperial-garden-katsura-imperial-villa-kyoto.jpg?s=612x612&w=0&k=20&c=Sqj7u7HqJBhGFbr0IXpoFAnPpWghvdNYuZ-bVSVq3AE=",
+        "https://media.gettyimages.com/id/152201310/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/katsura-imperial-villa-interior-of-the-informal-tea-house-japan-1590-kyoto.jpg?s=612x612&w=0&k=20&c=NpiLPb1IsTr3_laDZuo8o-oidMmcLNvudmQ1Vqs2Ejs=",
+        "https://media.gettyimages.com/id/160269045/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/katsura-imperial-villa-garden-in-kyoto-japan.jpg?s=612x612&w=0&k=20&c=UdC0Ggoxrag_1qN7qCHv10K-Lu56JPadJYrI6SbRrIA="
+      ],
+      "videoUrl": "https://youtu.be/mK8Dubw8FRA?si=NFW1d1VwByQLUYZn",
+      "avgSpendTime": 30,
+      "buses": ["Hankyu Kyoto Line from Kyoto-Kawaramachi Station to Katsura Station ", "Bus 33 from Kyoto Station"]
+    },
+    {
+      "id": "Kyoto Botanical Garden ",
+      "categoryId": "nature-gardens",
+      "name": "Kyoto Botanical Garden (京都府立植物園)",
+      "description": "As Japan's oldest public botanical garden, the Kyoto Botanical Garden boasts a vast and impressive collection of plant life, covering 24 hectares and providing a refreshing urban escape. This extensive garden showcases horticultural diversity through numerous themed sections, featuring a wide array of plant species and garden styles from across the globe. ",
+      "location": {
+        "address": "Kyoto City, Sakyo Ward, Hangi-cho, Shimogamo,606-0823",
+        "coordinates": { "lat": 35.0487, "lng": 135.7617 }
+      },
+      "images": [
+        "https://cdn.gaijinpot.com/app/uploads/sites/6/2018/04/Kyoto_Botanical_Garden_-_conservatory-1024x768.jpg",
+        "https://thumbs.dreamstime.com/b/kyoto-botanical-garden-major-botanical-garden-conservatory-located-next-to-kamo-river-kyoto-botanical-garden-119617915.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fb/Kyoto_Botanical_Garden_-_inside_conservatory.JPG"
+      ],
+      "videoUrl": "https://youtu.be/M9ROxNs8lSM?si=DTxtZUXIV72bNitW",
+      "avgSpendTime": 30,
+      "buses": ["Keihan main line from kyoto station to demachiyanagi", "Bus 204 and 205 from Kyoto Station"]
+    },
+    {
+      "id": "Okochi Sanso Villa",
+      "categoryId": "nature-gardens",
+      "name": "Okochi Sanso Villa (大河内山荘)",
+      "description": "Tucked away in the lush hills of Arashiyama, just beyond the bustling bamboo grove, lies Okochi Sanso Villa – the meticulously crafted former residence and gardens of Denjirō Ōkōchi, a celebrated silent film actor. This private estate, which took three decades to complete, is a true hidden gem that offers an unparalleled sense of tranquility and breathtaking, artfully framed views. The villa's gardens exemplify exquisite traditional Japanese landscape design, guiding visitors along a carefully sculpted strolling path that meanders through serene moss gardens, contemplative dry landscape areas, and lush forested sections. A definitive highlight is the remarkable use of shakkei (borrowed scenery), which seamlessly incorporates the distant Hozugawa River, Mount Ogura, and other iconic Arashiyama landmarks into the garden's composition. Each turn of the path reveals a new, perfectly framed vista, transitioning effortlessly from intimate tea houses nestled in the foliage to grand, expansive panoramic outlooks. ",
+      "location": {
+        "address": "Kyoto City, Ukyo Ward, Sagaogurayama Tabuchiyama-cho 8,616-8390",
+        "coordinates": { "lat": 35.0487, "lng": 135.7617 }
+      },
+      "images": [
+        "https://image.wmsm.co/6740ad7c42c64/og-image.webp?quality=80&width=1200&height=630&aspect_ratio=1200%3A630",
+        "https://media.istockphoto.com/id/1142576814/photo/okochi-sanso.jpg?s=612x612&w=0&k=20&c=EayfAhHpJ059az_U9x55dQPeYuvxO8ED6D1HgPQ2Hxo=",
+        "https://offbeatjapan.com/wp-content/uploads/2021/11/okochi-sanso-kyoto-autumn-pavilion.jpg"
+      ],
+      "videoUrl": "https://youtu.be/CRxZYMtVZ2s?si=Blt5WezV0C1yAgmd",
+      "avgSpendTime": 30,
+      "buses": ["JR Sagano Line from Kyoto Station to Saga-Arashiyama Station ", "Bus 11 and 28 from Kyoto Station"]
+    },
+    {
+      "id": "Nijo Castle",
+      "categoryId": "historic-districts",
+      "name": "Nijo Castle",
+      "description": "Nijo Castle (Nijō-jō), located in the heart of Kyoto, is one of Japan’s most impressive historical landmarks and a must-visit for anyone interested in samurai-era Japan. Built in 1603 by Tokugawa Ieyasu, the first shogun of the Edo Period, the castle served as the Kyoto residence of the shoguns and later became a symbol of the shogunate’s power. The entire complex is surrounded by stonewalls and moats, giving it a classic medieval feel. ",
+      "location": {
+        "address": "Kyoto City, Nakagyō Ward, Nijōjō-chō 541,604-8301",
+        "coordinates": { "lat": 35.0142, "lng": 135.7482 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1544473612-64c0d3de8774?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlqbyUyMGNhc3RsZXxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1702384230015-d69fefbfef8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmlqbyUyMGNhc3RsZXxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1685845284509-2202d6e0e2eb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlqbyUyMGNhc3RsZXxlbnwwfDB8MHx8fDA%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/xmKQnGBTxyc?si=GAtLShLOpSuwXRNN",
+      "avgSpendTime": 30,
+      "buses": ["the JR Sanin Line (also called the Sagano Line) to Nijo Station", "Bus 9 and 50 from Kyoto Station"]
+    },
+    {
+      "id": "To-ji Temple",
+      "categoryId": "historic-districts",
+      "name": "To-ji Temple",
+      "description": "To-ji Temple, located just a short walk from Kyoto Station, is a peaceful yet powerful place full of history and spiritual energy. Founded in 796, shortly after Kyoto became the capital, To-ji (meaning “East Temple”) was one of only two temples allowed in the city during its early years. It is most famous for its five-story pagoda, which is the tallest wooden tower in Japan and a beloved symbol of Kyoto’s skyline. When you see it rising gracefully above the trees, it feels like stepping back in time. Walking into To-ji’s grounds, you’ll feel a sense of calm. The temple complex is spacious, with wide paths, ancient halls, and a lovely garden that changes beautifully with the seasons. The Kondo (main hall) houses impressive Buddhist statues, and the Lecture Hall features a powerful display of esoteric Buddhist figures arranged in a sacred mandala layout, designed by the great monk Kukai (also known as Kobo Daishi), who was appointed head priest in the early 9th century. ",
+      "location": {
+        "address": "1 Kujōchō, Minami-ku, Kyoto, 601-8473",
+        "coordinates": { "lat": 34.9806, "lng": 135.7486 }
+      },
+      "images": [
+        "https://c8.alamy.com/comp/D3WGMB/the-wooden-tower-of-to-ji-temple-in-kyoto-japan-D3WGMB.jpg",
+        "https://dskyoto.s3.amazonaws.com/gallery/full/2114/5559/8783/01-20141128_Toji_Autumn-11-Edit.jpg",
+        "https://c8.alamy.com/comp/H1PE28/kondo-main-hall-circa-1603-of-toji-temple-in-kyoto-national-treasure-H1PE28.jpg"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/L72_m7HOT5A?si=11mITFfisaPQaSDG",
+      "avgSpendTime": 20,
+      "buses": ["tKintetsu Kyoto Line kyoto station to toji station", "Bus 205 and 208 from Kyoto Station"]
+    },
+    {
+      "id": "Enryaku-ji Temple",
+      "categoryId": "historic-districts",
+      "name": "Enryaku-ji Temple",
+      "description": "Enryaku-ji Temple is a deeply spiritual and historical place perched high on Mount Hiei, just northeast of Kyoto. Surrounded by dense forest and misty mountain air, it feels far removed from the hustle of city life—even though it is only about an hour away. Founded in 788 by the monk Saicho, Enryaku-ji is the head temple of the Tendai sect of Buddhism and has played a powerful role in Japanese religious history. Many famous monks, including the founders of other major Buddhist schools in Japan, once trained here. ",
+      "location": {
+        "address": "4220 Sakamotohonmachi, Ōtsu, Shiga 520-0116",
+        "coordinates": { "lat": 35.0706, "lng": 135.8416 }
+      },
+      "images": [
+        "https://a3.cdn.japantravel.com/photo/poi-177-209459/1545x1030!/shiga-enryaku-ji-temple-209459.jpg",
+        "https://th.bing.com/th/id/OIP.uxFj2Syy0VlFcTovsMMbHAHaEo?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3",
+        "https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/TT8B96/the-east-pagoda-of-enryaku-ji-temple-in-otsu-japan-TT8B96.jpg"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/b5smc9PULEc?si=T8oqvV2QkwZSBeNX",
+      "avgSpendTime": 40,
+      "buses": ["Keihan Line → Demachiyanagi Station (Kyoto) → Transfer to the Eizan Dentetsu Line.", "Bus 51 from Kyoto Station"]
+    },
+    {
+      "id": "Ninna-ji Temple",
+      "categoryId": "historic-districts",
+      "name": "Ninna-ji Temple ",
+      "description": "Ninna-ji Temple is a calm, elegant gem in western Kyoto, rich with imperial history and peaceful charm. It was founded in 888 by Emperor Uda, and what makes it special is that for centuries, the head priests were members of the imperial family. As you walk through its beautifully kept grounds, you can really feel the temple's graceful, noble past—but without the crowds or pressure of more famous sites. One of the highlights of Ninna-ji is the majestic five-story pagoda, which rises gently above the trees. It is not overly tall, but perfectly proportioned and beautifully framed by the surrounding garden and traditional buildings. The Goten, or former residence of the head priest, is another highlight—this area feels like a small palace with sliding doors, tatami rooms, and a lovely walled garden where time seems to slow down. ",
+      "location": {
+        "address": " 33 Ōuchi Omuro, Ukyō-ku, Kyoto 616-8092",
+        "coordinates": { "lat": 35.0336, "lng": 135.7139 }
+      },
+      "images": [
+        "https://www.kanpai-japan.com/sites/default/files/uploads/2021/05/kyoto-ninnaji-12.jpg",
+        "https://www.kanpai-japan.com/sites/default/files/uploads/2021/05/kyoto-ninnaji-13.jpg",
+        "https://thumbs.dreamstime.com/z/kyoto-japan-october-view-niomon-gate-pair-kongo-rikishi-statues-ninna-ji-temple-visitors-kyoto-164975977.jpg"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/2tZ0hW9lxWI?si=q44RxcI_6pBTZwpz",
+      "avgSpendTime": 40,
+      "buses": ["JR Sagano Line to Hanazono Station", "Bus 10 and 59 from Kyoto Station"]
+    },
+    {
+      "id": "Kimono Wearing – Elegance and Identity in Kyoto",
+      "categoryId": "traditional-culture",
+      "name": "Kimono Wearing – Elegance and Identity in Kyoto Gojozaka ",
+      "description": "Kimono wearing is one of the most iconic and visually stunning traditional cultures of the Kyoto region. A kimono is a long, T-shaped robe worn with a wide sash called an obi, representing grace, discipline, and seasonal awareness. Kyoto is considered the cultural heart of Japan, and here, kimono culture is deeply tied to festivals, religious visits, and everyday elegance. Kyoto is home to Nishijin, a district famous for its handwoven kimono textiles known as Nishijin-ori. These textiles are made using time-honored techniques involving silk and gold threads, often requiring months to complete. Wearing a kimono in Kyoto is not just about fashion; it reflects one’s respect for tradition, nature, and time. Different colors and patterns are worn according to the season, age, occasion, and status. ",
+      "location": {
+        "address": " Near Kiyomizu-dera Temple, Higashiyama Ward, Kyoto",
+        "coordinates": { "lat": 34.9978, "lng": 135.7799 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1608451993851-f5364e09027f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2ltb25vfGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1586434722766-b46308f072ed?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8S2ltb25vfGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1615790469465-2f1e2770280a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8S2ltb25vfGVufDB8MHwwfHx8MA%3D%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/ltDTssISHaI?si=DlMtNDG_UeDw-RmH",
+      "avgSpendTime": 40,
+      "buses": [" Keihan Main Line to Kiyomizu-Gojo Station", "Bus 100 and 206 from Kyoto Station"]
+    },
+    {
+      "id": "maiko and Geisha – Living Symbols of Kyoto’s Cultural Grace",
+      "categoryId": "traditional-culture",
+      "name": "maiko and Geisha – Living Symbols of Kyoto’s Cultural Grace Gojozaka ",
+      "description": "Kyoto is world-renowned as the birthplace and cultural home of Geisha (or Geiko, as they are called in Kyoto) and Maiko (their apprentices). These elegant women are highly trained artists skilled in traditional Japanese music, dance, conversation, and hospitality. The Gion district in Kyoto is one of the most famous areas where Maiko and Geiko still live and perform, preserving centuries-old customs.  ",
+      "location": {
+        "address": " Near Kiyomizu-dera Temple, Higashiyama Ward, Kyoto",
+        "coordinates": { "lat": 34.9978, "lng": 135.7799 }
+      },
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1664476561349-52e62c71ebca?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFpa28lMjBhbmQlMjBHZWlzaGF8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1599465076185-1ae033fc5208?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFpa28lMjBhbmQlMjBHZWlzaGF8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1565832047169-654cf38c2a64?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1haWtvJTIwYW5kJTIwR2Vpc2hhfGVufDB8MHwwfHx8MA%3D%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/PoJc9l4-mJM?si=AuGWlfaYtEvzxx3E",
+      "avgSpendTime": 40,
+      "buses": [" Keihan Main Line to Kiyomizu-Gojo Station", "Bus 100 and 206 from Kyoto Station"]
+    },
+    {
+      "id": "Kyo-yaki and Kiyomizu-yaki Pottery – Kyoto’s Artistic Ceramics",
+      "categoryId": "traditional-culture",
+      "name": "Kyo-yaki and Kiyomizu-yaki Pottery – Kyoto’s Artistic Ceramics",
+      "description": "Kyo-yaki (京焼) and Kiyomizu-yaki (清水焼) are traditional forms of Kyoto pottery that have been cherished for centuries for their elegance, fine craftsmanship, and artistic beauty. These ceramics are not mass-produced but are handcrafted by skilled artisans who use time-honored techniques to create each unique piece. The tradition dates back to the 16th century and is closely tied to the tea ceremony.  ",
+      "location": {
+        "address": "Gojozaka & Kiyomizu-yaki Pottery Lane Kiyomizu-dera Temple, Higashiyama-ku, Kyoto",
+        "coordinates": { "lat": 34.9978, "lng": 135.7799 }
+      },
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1683121097518-c4b59155e9a7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S3lvJTIweWFraSUyMGFuZCUyMEtpeW9taXp1JTIweWFraSUyMFBvdHRlcnl8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1719139830243-766eb3837646?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S3lvJTIweWFraSUyMGFuZCUyMEtpeW9taXp1JTIweWFraSUyMFBvdHRlcnl8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1695746999130-17bc94e000e8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8S3lvJTIweWFraSUyMGFuZCUyMEtpeW9taXp1JTIweWFraSUyMFBvdHRlcnl8ZW58MHwwfDB8fHww"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/B8RKWsBunhE?si=1B9mOve2JU1xz1yd",
+      "avgSpendTime": 40,
+      "buses": [" Keihan Main Line to Gion then go to kawaramachi station", "Bus 112 from Kyoto Station"]
+    },
+    {
+      "id": "Ikebana (生け花) – The Art of Japanese Flower Arrangement",
+      "categoryId": "traditional-culture",
+      "name": "Ikebana (生け花) – The Art of Japanese Flower Arrangement",
+      "description": "Ikebana, the traditional Japanese art of flower arrangement, holds a special place in Kyoto’s cultural and spiritual life. Unlike ordinary floral decoration, Ikebana focuses on harmony, simplicity, and the natural beauty of flowers and branches arranged in a meaningful way. The practice originated from Kyoto’s Buddhist temples during the Heian period (794–1185), where monks offered flowers to the Buddha as a spiritual act. ",
+      "location": {
+        "address": " Near Kiyomizu-dera Temple, Higashiyama Ward, Kyoto",
+        "coordinates": { "lat": 34.9978, "lng": 135.7799 }
+      },
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1678115322148-685f79930de2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SWtlYmFuYXxlbnwwfDB8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1682308307804-bb7886589a46?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SWtlYmFuYXxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1638447093672-c97c2d72b5d0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SWtlYmFuYXxlbnwwfDB8MHx8fDA%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/SIsMTlcnJro?si=gAjI8rIcTtXwQEzi",
+      "avgSpendTime": 40,
+      "buses": [" Keihan Main Line to Kiyomizu-Gojo Station", "Bus 100 and 206 from Kyoto Station"]
+    },
+    {
+      "id": "Calligraphy (Shodō / 書道) – The Artistic Soul of Writing in Kyoto",
+      "categoryId": "traditional-culture",
+      "name": "Calligraphy (Shodō / 書道) – The Artistic Soul of Writing in Kyoto",
+      "description": "Shodō, or Japanese calligraphy, is a respected and refined art form that thrives in Kyoto’s cultural landscape. More than just writing, Shodō is a meditative practice that expresses the writer’s emotions, rhythm, and spirit through brush strokes. It originated in China but was adapted and developed uniquely in Japan, especially during the Heian period when Kyoto was the imperial capital. ",
+      "location": {
+        "address": " Fushumi Ward, Kyoto",
+        "coordinates": { "lat": 34.995, "lng": 135.7852 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1486303954368-398fea0e72cd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2FsbGlncmFwaHl8ZW58MHwwfDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1675623429538-d1d00076c925?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2FsbGlncmFwaHl8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1542695807939-063af86fa22f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fENhbGxpZ3JhcGh5fGVufDB8MHwwfHx8MA%3D%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/GSuFSYY-X9w?si=UI5UiPFRPyJjaojV",
+      "avgSpendTime": 40,
+      "buses": [" Kintetsu Kyoto Line → Takeda Station", "Bus 100 and 206 from Kyoto Station"]
+    },
+    {
+      "id": "Kyoto Festivals (Matsuri) – Celebrations of Heritage and Community",
+      "categoryId": "traditional-culture",
+      "name": "Kyoto Festivals (Matsuri) – Celebrations of Heritage and Community",
+      "description": "Kyoto is famous for its grand and historic festivals, known as matsuri, which showcase the region’s rich traditions, religious beliefs, and community spirit. These festivals are not only major cultural events but also deeply rooted in Shinto and Buddhist customs passed down for over a thousand years. ",
+      "location": {
+        "address": " Near Kiyomizu-dera Temple, Higashiyama Ward, Kyoto",
+        "coordinates": { "lat": 34.9978, "lng": 135.7799 }
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1690210684306-521cdb9990a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWF0c3VyaXxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1654395821069-05cec0757258?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWF0c3VyaXxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1699095543331-691ebb65741c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWF0c3VyaXxlbnwwfDB8MHx8fDA%3D"
+      ],
+      "videoUrl": "https://www.youtube.com/embed/16GWw0JJ1O0?si=Jdd91VMVhlgbkSjW",
+      "avgSpendTime": 40,
+      "buses": [" Keihan Main Line to Kiyomizu-Gojo Station", "Bus 100 and 206 from Kyoto Station"]
+    }
+  ]
+}
